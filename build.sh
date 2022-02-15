@@ -30,7 +30,7 @@ CROSS_COMPILE_ARM32=arm-linux-gnueabi-
 
 cd $REPACK_DIR
 cp $KERNEL_DIR/out/arch/arm64/boot/Image.gz-dtb $REPACK_DIR/
-FINAL_ZIP=Selena-Kernel${VERSION}-${DEVICE_NAME}.zip
+FINAL_ZIP=Patrik-★-Kernel${VERSION}-${DEVICE_NAME}.zip
 zip -r9 "${FINAL_ZIP}" *
 cp *.zip $OUT
 rm *.zip
